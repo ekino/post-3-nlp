@@ -1,6 +1,7 @@
 # Notebook Jupyter accompagnant les posts de blog "Handson de quelques tâches courantes en NLP" et "Simple NLP tasks tutorial"
 
-## Introduction
+
+## Introduction
 
 Ce notebook regroupe les exemples présents dans le post "Handson de quelques tâches courantes en NLP" (et sa version anglaise "Simple NLP tasks tutorial"). Ce sont des exemples simples de tâches courantes en NLP implémentées en Python en utilisant les librairies SpaCy et NLTK.
 Dans ce repository sont donc présents un notebook jupyter exécutées (*Exemples de tâches simples de NLP avec SpaCy et NLTK-run.ipynb*), le même notebook mais non exécuté (*Exemples de tâches simples de NLP avec SpaCy et NLTK.ipynb*) et un fichier *requirements.txt* pour l'installation des différents packages nécessaires.
@@ -9,8 +10,10 @@ Dans ce repository sont donc présents un notebook jupyter exécutées (*Exemple
 
 Il est conseillé d’utiliser un environnement Anaconda en Python 3.5 :
 
-```$ conda create --name spacy_nltk_examples python=3.5```
-```$ source activate spacy_nltk_examples```
+```
+$ conda create --name spacy_nltk_examples python=3.5
+$ source activate spacy_nltk_examples
+```
 
 Il est ensuite nécessaire d'installer les packages présents dans le fichier *requirements.txt* :
 
