@@ -9,15 +9,15 @@ Dans ce repository sont donc présents un notebook jupyter exécutées (*Exemple
 
 Il est conseillé d’utiliser un environnement Anaconda en Python 3.5 :
 
-$ conda create --name spacy_nltk_examples python=3.5
-$ source activate spacy_nltk_examples
+```$ conda create --name spacy_nltk_examples python=3.5```
+```$ source activate spacy_nltk_examples```
 
 Il est ensuite nécessaire d'installer les packages présents dans le fichier *requirements.txt* :
 
-$ pip install -r requirements.txt
+```$ pip install -r requirements.txt```
 
 Enfin pour ouvrir le notebook, il faut se placer dans le répertoire le contenant et lancer le serveur notebook via la commande :
 
-$ jupyter notebook
+```$ jupyter notebook```
 
 Le notebook s’ouvre alors dans le navigateur et on accède au tableau de bord. Il faut ensuite sélectionner le fichier en *.ipynb* puis le faire tourner cellule par cellule (Menu Cell puis Run Cells) ou toutes les cellules d'un coup (Menu Cell puis Run All).
